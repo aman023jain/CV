@@ -1,0 +1,65 @@
+
+/*********************************** tag selectors *******************************************/
+
+body{
+    background-color: #EAF6F6;
+}
+
+hr{
+    background-color: #EAF6F6;
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: grey;
+    height:0px;
+    width:12%;
+}
+
+
+h1 {
+    color: #4db2b2;
+    
+  }
+
+
+
+  h3 {
+    color: #4db2b2;
+  }
+
+  h2 {
+    color: #4db2b2;
+  }
+
+  img:hover{
+    background-color:#f4e0ff;
+    height: 210px;
+    width: 210px;
+  }
+
+/*********************************** class selectors **************************************/
+ /* we can add two classes to a single html element , we cant do so with IDs*/
+
+  /* I only want to change font style for my name(not for all h1 headings) which is under aman class, we do so by below code */
+
+  .aman{
+    color: #4db2b2;
+    font-family: "Brush Script MT", Times, sans-serif;
+  }
+
+  .aman:hover{               /*color will change when u will hover over this html element */
+    color: #c972f8;
+    size: 25px;
+  }
+
+
+
+
+/*********************************** ID selectors **************************************/
+/* diff btw id and class ,   we can only have single instance of a one particular id name , but we can have multiple instances of a 1 particular class name */
+/* both id and class are more specific then tag selectors, and they will override the tagselectors */
+
+/* we use # here */
+
+#paragraph{
+    color: #ad5eda
+}
